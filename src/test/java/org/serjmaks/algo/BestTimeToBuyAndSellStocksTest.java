@@ -8,7 +8,7 @@ class BestTimeToBuyAndSellStocksTest {
 
     @Test
     public void run() {
-        int[] prices = {1,2,3,4,5};
+        int[] prices = {3,4,5,6,5};
 
         BestTimeToBuyAndSellStocks best = new BestTimeToBuyAndSellStocks();
         int expected = 4;
