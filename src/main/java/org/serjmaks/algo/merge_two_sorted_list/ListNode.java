@@ -1,4 +1,4 @@
-package org.serjmaks.algo.MergeTwoSortedList;
+package org.serjmaks.algo.merge_two_sorted_list;
 
 public class ListNode {
 
