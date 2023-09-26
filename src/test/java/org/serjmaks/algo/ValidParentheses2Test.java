@@ -1,20 +1,27 @@
 package org.serjmaks.algo;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ValidParentheses2Test {
 
-    @Test
-    void run() {
-        ValidParentheses2 validParentheses2 = new ValidParentheses2();
-        String s = "(){}[]";
-//        String s = "([}}])";
+    @ParameterizedTest
+    @MethodSource("arguments")
+    void run(String s, boolean expected) {
+        assertEquals(expected, ValidParentheses2.run(s));
+    }
 
-        boolean expected = true;
-        boolean actual = validParentheses2.run(s);
-
-        assertEquals(expected, actual);
+    private static Stream<Arguments> arguments () {
+        return Stream.of(
+                Arguments.of("()[]{}", true),
+                Arguments.of("[{()}]", true),
+                Arguments.of("[{()}", false),
+                Arguments.of("[{))}]", false)
+        );
     }
 }

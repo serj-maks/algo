@@ -1,7 +1,7 @@
 package org.serjmaks.algo;
 
 public class ValidAnagrams {
-    public boolean run(String s, String t) {
+    public static boolean run(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }

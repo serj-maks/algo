@@ -2,7 +2,7 @@ package org.serjmaks.algo;
 
 public class BestTimeToBuyAndSellStocks {
 
-    public int run(int[] prices) {
+    public static int run(int[] prices) {
         int minValue = Integer.MAX_VALUE;
         int maxProfit = 0;
 

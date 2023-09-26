@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class TwoSum2 {
     // возвращает элементы массива
-    public int[] run(int[] nums, int target) {
+    public static int[] run(int[] nums, int target) {
         Set<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
             int current = nums[i];

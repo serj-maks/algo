@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class ValidParentheses2 {
 
-    public boolean run(String s) {
+    public static boolean run(String s) {
         Map<Character, Character> map = new HashMap<>();
         map.put(')', '(');
         map.put(']', '[');

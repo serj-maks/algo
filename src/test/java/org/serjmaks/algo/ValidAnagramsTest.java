@@ -21,19 +21,19 @@ class ValidAnagramsTest {
 //        assertTrue(validAnagrams.run(s,t));
 //    }
 
-//    @ParameterizedTest
-//    @MethodSource("stringsToEqual")
-//    void paramRun(String s, String t, boolean expected) {
-//        ValidAnagrams validAnagrams = new ValidAnagrams();
-//
-//        assertEquals(expected, validAnagrams.run(s,t));
-//    }
-//
-//    private static Stream<Arguments> stringsToEqual() {
-//        return Stream.of(
-//                Arguments.of("alabama", "amabala", true),
-//                Arguments.of("rat", "tar", true),
-//                Arguments.of("root", "root", false)
-//        );
-//    }
+    @ParameterizedTest
+    @MethodSource("arguments")
+    void paramRun(String s, String t, boolean expected) {
+        assertEquals(expected, ValidAnagrams.run(s,t));
+    }
+
+    private static Stream<Arguments> arguments() {
+        return Stream.of(
+                Arguments.of("rat", "tar", true),
+                Arguments.of("root", "root", true),
+                Arguments.of("root", "roo", false),
+                Arguments.of("", "rat", false),
+                Arguments.of("", "", true)
+        );
+    }
 }

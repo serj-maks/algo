@@ -1,20 +1,28 @@
 package org.serjmaks.algo;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class BinarySearchTest {
 
-    @Test
-    void run() {
-        int[] nums = {1,2,3,4,5};
-        int target = 5;
-        BinarySearch binarySearch = new BinarySearch();
+    @ParameterizedTest
+    @MethodSource("arguments")
+    void run(int[] nums, int target, int expected) {
+        assertEquals(expected, BinarySearch.run(nums, target));
+    }
 
-        int expected = 4;
-        int actual = binarySearch.run(nums, target);
-
-        assertEquals(expected, actual);
+    private static Stream<Arguments> arguments() {
+        return Stream.of(
+                Arguments.of(new int[]{1,2,3,4,5}, 5, 4),
+                Arguments.of(new int[]{0}, 0, 0),
+                Arguments.of(new int[]{1,2,3,4,5}, 6, -1),
+                Arguments.of(new int[]{0}, 5, -1)
+        );
     }
 }

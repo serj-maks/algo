@@ -1,7 +1,7 @@
 package org.serjmaks.algo;
 
 public class BinarySearch {
-    public int run(int[] nums, int target) {
+    public static int run(int[] nums, int target) {
         if (nums.length == 0) {
             return -1;
         }
@@ -17,7 +17,7 @@ public class BinarySearch {
             } else if (nums[midpoint] > target) {
                 right = midpoint - 1;
             } else {
-                right = midpoint + 1;
+                left = midpoint + 1;
             }
         }
 

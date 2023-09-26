@@ -3,7 +3,7 @@ package org.serjmaks.algo;
 import java.util.Stack;
 
 public class ValidParentheses {
-    public boolean run(String s) {
+    public static boolean run(String s) {
         Stack<Character> stack = new Stack<>();
 
         for (char c : s.toCharArray()) {
