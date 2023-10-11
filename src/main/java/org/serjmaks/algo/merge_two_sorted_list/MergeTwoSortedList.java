@@ -12,9 +12,11 @@ public class MergeTwoSortedList {
                 return list2;
             }
         }
+
         if (list1 == null) {
             return list2;
         }
+
         return list1;
     }
 }
