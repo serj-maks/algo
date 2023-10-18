@@ -15,8 +15,8 @@ class TwoSum2Test {
     @MethodSource("arguments")
     public void run(int[] nums, int target, int[] expected) {
         assertEquals(Arrays.toString(expected),
-                Arrays.toString(TwoSum2.run(nums, target)
-                ));
+                     Arrays.toString(TwoSum2.run(nums, target)
+                     ));
     }
 
     private static Stream<Arguments> arguments() {
