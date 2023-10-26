@@ -20,14 +20,14 @@ class ThreeSumTest {
     void run(int[] nums, List<List<Integer>> expected) {
     }
 
-    private static Stream<Arguments> arguments() {
-        List<List<Integer>> list = new ArrayList<>();
-        Integer[] nums1 = {1,2,3};
-        List<Integer> list1 = Arrays.asList(nums1);
-        list.add(list1);
-        return Stream.of(
-                Arguments.of(new LinkedList<List<Integer>>(Arrays.asList(new Integer[](1,2,3)), Arrays.asList(new Integer[](1,2,3))),
-                Arguments.of()
-        );
-    }
+//    private static Stream<Arguments> arguments() {
+//        List<List<Integer>> list = new ArrayList<>();
+//        Integer[] nums1 = {1,2,3};
+//        List<Integer> list1 = Arrays.asList(nums1);
+//        list.add(list1);
+//        return Stream.of(
+//                Arguments.of(new LinkedList<List<Integer>>(Arrays.asList(new Integer[](1,2,3)), Arrays.asList(new Integer[](1,2,3))),
+//                Arguments.of()
+//        );
+//    }
 }
