@@ -1,0 +1,6 @@
+- algorithm - 
+- data structure - stack
+- leetcode link - 
+- solved by myself -
+- difficulty - 
+- explanation link - 
