@@ -1,4 +1,4 @@
-package org.serjmaks.algo.bfs.BinaryTreeLevelOrderTraversal;
+package org.serjmaks.algo.binary_tree_level_order_traversal;
 
 public class TreeNode {
 

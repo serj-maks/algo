@@ -1,4 +1,4 @@
-package org.serjmaks.algo.dfs.clone_graph;
+package org.serjmaks.algo.clone_graph;
 
 import java.util.Arrays;
 

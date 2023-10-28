@@ -1,3 +1,5 @@
+package org.serjmaks.algo;
+
 public class AddBinary {
 
     public static String run(String a, String b) {
