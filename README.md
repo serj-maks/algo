@@ -68,6 +68,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://leetcode.com/problems/coin-change/solutions/3890697/dp-java-o-amount-coins-length-time-o-amount-space-detailed-explanation-maybe/
 
+### product of array except self
+- leetcode link - https://leetcode.com/problems/product-of-array-except-self/submissions/
+- algorithm - 
+- data structure - array
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=tSRFtR3pv74
+
 
 ## data structure
 
