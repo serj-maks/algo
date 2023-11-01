@@ -43,6 +43,13 @@ example
 https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/3267417/well-explained-code-in-java-use-of-arraylist-and-queues/
 
 ## algorithm
+### template
+- leetcode link - 
+- algorithm -
+- data structure - 
+- difficulty - 
+- solved by myself - 
+- explanation link - 
 
 ### binary tree level order traversal
 - leetcode link - https://leetcode.com/problems/binary-tree-level-order-traversal/
@@ -78,9 +85,20 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 
 
 ## data structure
+### template
+- leetcode link -
+- difficulty
+- solved by myself -
+- explanation link -
 
 ### implement trie (prefix tree)
 - leetcode link - https://leetcode.com/problems/implement-trie-prefix-tree/
 - difficulty - medium
 - solved by myself - no
 - explanation link - 
+
+### min stack
+- leetcode link - https://leetcode.com/problems/min-stack/
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=WxCuL3jleUA
