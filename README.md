@@ -83,6 +83,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=tSRFtR3pv74
 
+### validate binary search tree
+- leetcode link - https://leetcode.com/problems/validate-binary-search-tree/
+- algorithm -
+- data structure - stack
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=gGsEVFP0aQo
+
 
 ## data structure
 ### template
