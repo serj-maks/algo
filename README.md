@@ -91,6 +91,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=gGsEVFP0aQo
 
+### number of islands
+- leetcode link - https://leetcode.com/problems/number-of-islands/description/
+- algorithm - bfs, recursion
+- data structure -
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=QSQA8i4QsLY
+
 
 ## data structure
 ### template
