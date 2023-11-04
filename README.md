@@ -99,6 +99,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=QSQA8i4QsLY
 
+### rotting oranges
+- leetcode link - https://leetcode.com/problems/rotting-oranges/
+- algorithm - bfs
+- data structure - hashset
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=TzoDDOj60zE
+
 
 ## data structure
 ### template
