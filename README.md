@@ -107,6 +107,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=TzoDDOj60zE
 
+### template
+- leetcode link - https://leetcode.com/problems/search-in-rotated-sorted-array/
+- algorithm - binary search
+- data structure - 
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/3416630/c-java-python-javascript-fully-explained-binary-search/
+
 
 ## data structure
 ### template
