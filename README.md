@@ -115,6 +115,13 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/3416630/c-java-python-javascript-fully-explained-binary-search/
 
+### template
+- leetcode link - https://leetcode.com/problems/combination-sum/description/
+- algorithm - recursion
+- data structure - arraylist
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://leetcode.com/problems/combination-sum/solutions/3915310/easy-explanation-with-recursion-tree-recursion-and-backtracking-well-explained-java/
 
 ## data structure
 ### template
