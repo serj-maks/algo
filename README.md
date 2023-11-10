@@ -123,6 +123,15 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://leetcode.com/problems/combination-sum/solutions/3915310/easy-explanation-with-recursion-tree-recursion-and-backtracking-well-explained-java/
 
+### template
+- leetcode link - https://leetcode.com/problems/merge-intervals/description/
+- algorithm - 
+- data structure - arraylist
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=qKczfGUrFY4&t=21s
+
+
 ## data structure
 ### template
 - leetcode link -
