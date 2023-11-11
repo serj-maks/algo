@@ -131,6 +131,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=qKczfGUrFY4&t=21s
 
+### lowest common ancestor of a binary tree
+- leetcode link - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+- algorithm - recursion 
+- data structure - 
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=6POfA8fruxI
+
 
 ## data structure
 ### template
