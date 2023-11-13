@@ -143,8 +143,8 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 ## data structure
 ### template
 - leetcode link -
-- difficulty
-- solved by myself -
+- difficulty - 
+- solved by myself - 
 - explanation link -
 
 ### implement trie (prefix tree)
@@ -158,3 +158,9 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - difficulty - medium
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=WxCuL3jleUA
+- 
+### template
+- leetcode link - https://leetcode.com/problems/time-based-key-value-store/description/
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=eVi4gDimCoo
