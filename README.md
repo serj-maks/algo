@@ -139,6 +139,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=6POfA8fruxI
 
+### accounts merge
+- leetcode link - https://leetcode.com/problems/accounts-merge/
+- algorithm - dfs
+- data structure - map, set, list
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://leetcode.com/problems/accounts-merge/solutions/1076789/java-two-methods-union-find-and-dfs/
+
 
 ## data structure
 ### template
