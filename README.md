@@ -147,6 +147,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://leetcode.com/problems/accounts-merge/solutions/1076789/java-two-methods-union-find-and-dfs/
 
+### template
+- leetcode link - https://leetcode.com/problems/sort-colors/description/
+- algorithm - two pointers, in-place
+- data structure - 
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=uvB-Ns_TVis
+
 
 ## data structure
 ### template
