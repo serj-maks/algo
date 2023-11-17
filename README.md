@@ -163,6 +163,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://leetcode.com/problems/word-break/solutions/43790/java-implementation-using-dp-in-two-ways/
 
+### template
+- leetcode link - https://leetcode.com/problems/partition-equal-subset-sum/description/
+- algorithm - recursion, memoization 
+- data structure - array
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://leetcode.com/problems/partition-equal-subset-sum/solutions/1624101/java-memoization-to-optimized-dp-detailed-explanation/
+
 
 ## data structure
 ### template
