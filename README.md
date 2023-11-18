@@ -171,6 +171,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://leetcode.com/problems/partition-equal-subset-sum/solutions/1624101/java-memoization-to-optimized-dp-detailed-explanation/
 
+### string to integer
+- leetcode link - https://leetcode.com/problems/string-to-integer-atoi/description/
+- algorithm -
+- data structure -
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=sXWAi98fP5Y
+
 
 ## data structure
 ### template
