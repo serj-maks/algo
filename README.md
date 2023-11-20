@@ -179,6 +179,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=sXWAi98fP5Y
 
+### spiral matrix
+- leetcode link - https://leetcode.com/problems/spiral-matrix/description/
+- algorithm - 
+- data structure - arraylist
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=BdQ2AkaTgOA
+
 
 ## data structure
 ### template
