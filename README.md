@@ -187,6 +187,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=BdQ2AkaTgOA
 
+### subsets
+- leetcode link - https://leetcode.com/problems/subsets/
+- algorithm - recursion
+- data structure - arrayList
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=LdtQAYdYLcE
+
 
 ## data structure
 ### template
