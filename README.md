@@ -195,6 +195,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=LdtQAYdYLcE
 
+### binary tree right side view
+- leetcode link - https://leetcode.com/problems/binary-tree-right-side-view/
+- algorithm -
+- data structure - queue,
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=jCqIr_tBLKs
+
 
 ## data structure
 ### template
