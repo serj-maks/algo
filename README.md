@@ -203,6 +203,14 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=jCqIr_tBLKs
 
+### template
+- leetcode link - https://leetcode.com/problems/longest-palindromic-substring/description/
+- algorithm -
+- data structure - 
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=y2BD4MJqV20
+
 
 ## data structure
 ### template
