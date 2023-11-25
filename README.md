@@ -203,13 +203,21 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/solutions/326741
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=jCqIr_tBLKs
 
-### template
+### longest palindromic substring
 - leetcode link - https://leetcode.com/problems/longest-palindromic-substring/description/
 - algorithm -
 - data structure - 
 - difficulty - medium
 - solved by myself - no
 - explanation link - https://www.youtube.com/watch?v=y2BD4MJqV20
+
+### unique paths
+- leetcode link - https://leetcode.com/problems/unique-paths/
+- algorithm - dp
+- data structure - array arrays
+- difficulty - medium
+- solved by myself - no
+- explanation link - https://www.youtube.com/watch?v=6qMFjFC9YSc
 
 
 ## data structure
