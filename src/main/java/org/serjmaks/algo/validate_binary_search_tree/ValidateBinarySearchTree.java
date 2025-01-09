@@ -1,27 +1,21 @@
 package org.serjmaks.algo.validate_binary_search_tree;
 
-import java.util.Stack;
-
+//TODO: add test
 public class ValidateBinarySearchTree {
     public static boolean run(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
-        double leftChildVal = -Double.MAX_VALUE;
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
 
-        while (!stack.isEmpty() || root != null) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-
-            root = stack.pop();
-            if (root.val <= leftChildVal) {
-                return false;
-            }
-
-            leftChildVal = root.val;
-            root = root.right;
+    private static boolean isValidBST(TreeNode root, long minValue, long maxValue) {
+        if (root == null) {
+            return true;
         }
 
-        return true;
+        if (root.val >= maxValue || root.val <= minValue) {
+            return false;
+        }
+
+        return isValidBST(root.left, minValue, root.val)
+                && isValidBST(root.right, root.val, maxValue);
     }
 }

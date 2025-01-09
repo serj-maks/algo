@@ -1,28 +1,27 @@
 package org.serjmaks.algo.diameter_of_binary_tree;
 
+//TODO: add test
 public class DiameterOfBinaryTree {
+    int diameter = 0;
 
-    static int max = Integer.MAX_VALUE;
-
-    // use int to hold the diameter
-    public static int run(TreeNode root) {
-        height(root);
-        return max;
+    public int run(TreeNode root) {
+        if (root.left == null && root.right == null) {
+            return 0;
+        }
+        findHeight(root);
+        return diameter;
     }
 
-    private static int height(TreeNode node) {
-        int left = 0;
-        int right = 0;
-
-        if (node.left != null) {
-            left = height(node.left);
+    private int findHeight(TreeNode root) {
+        if (root == null) {
+            return 0;
         }
 
-        if (node.right != null) {
-            right = height(node.right);
-        }
+        int leftHeight = findHeight(root.left);
+        int rightHeight = findHeight(root.right);
 
-        max = Math.max(max, left + right);
-        return Math.max(left, right) + 1;
+        diameter = Math.max(diameter, leftHeight + rightHeight);
+
+        return 1 + Math.max(leftHeight, rightHeight);
     }
 }

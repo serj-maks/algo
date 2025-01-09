@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+//TODO: add test
 public class BinaryTreeLevelOrderTraversal {
-
     public static List<List<Integer>> run(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -15,26 +15,26 @@ public class BinaryTreeLevelOrderTraversal {
         }
 
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
+        queue.add(root);
 
-        while (!queue.isEmpty()) {
-            List<Integer> level = new ArrayList<>();
+        while(!queue.isEmpty()) {
             int size = queue.size();
+            List<Integer> currentLevel = new ArrayList<>();
 
-            for (int i = 0; i < size; i++) {
-                TreeNode curr = queue.poll();
-                level.add(curr.val);
+            for(int i = 0; i < size; i++) {
+                TreeNode current = queue.remove();
+                currentLevel.add(current.val);
 
-                if (curr.left != null) {
-                    queue.add(curr.left);
+                if(current.left != null) {
+                    queue.add(current.left);
                 }
 
-                if (curr.right != null) {
-                    queue.add(curr.right);
+                if(current.right != null) {
+                    queue.add(current.right);
                 }
             }
 
-            result.add(level);
+            result.add(currentLevel);
         }
 
         return result;
