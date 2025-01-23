@@ -1,6 +1,7 @@
 package org.serjmaks.algo.validate_binary_search_tree;
 
-//TODO: add test
+import org.serjmaks.algo.TreeNode;
+
 public class ValidateBinarySearchTree {
     public static boolean run(TreeNode root) {
         return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);

@@ -1,6 +1,7 @@
 package org.serjmaks.algo.invert_binary_tree;
 
-//TODO: add test
+import org.serjmaks.algo.TreeNode;
+
 public class InvertBinaryTree {
     public TreeNode run(TreeNode root) {
         if (root == null) {

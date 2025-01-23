@@ -14,7 +14,9 @@ class MiddleOfTheLinkedListTest {
     @MethodSource("arguments")
     void run(int[] nums, int expected) {
         ListNode head = ListNode.createList(nums);
-        ListNode result = MiddleOfTheLinkedList.run(head);
+        //не стал делать static-метод "run" в классе MiddleOfTheLinkedList
+        MiddleOfTheLinkedList middleCalculator = new MiddleOfTheLinkedList();
+        ListNode result = middleCalculator.run(head);
         assertEquals(expected, result.val);
     }
 

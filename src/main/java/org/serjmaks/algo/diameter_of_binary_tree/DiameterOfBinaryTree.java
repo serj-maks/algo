@@ -1,13 +1,15 @@
 package org.serjmaks.algo.diameter_of_binary_tree;
 
-//TODO: add test
+import org.serjmaks.algo.TreeNode;
+
 public class DiameterOfBinaryTree {
     int diameter = 0;
 
     public int run(TreeNode root) {
-        if (root.left == null && root.right == null) {
+        if (root == null || root.left == null && root.right == null) {
             return 0;
         }
+
         findHeight(root);
         return diameter;
     }

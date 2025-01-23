@@ -1,11 +1,12 @@
 package org.serjmaks.algo.binary_tree_level_order_traversal;
 
+import org.serjmaks.algo.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-//TODO: add test
 public class BinaryTreeLevelOrderTraversal {
     public static List<List<Integer>> run(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
