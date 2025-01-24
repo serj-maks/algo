@@ -1,9 +1,11 @@
-package org.serjmaks.algo.legacy.middle_of_the_linked_list;
+package org.serjmaks.algo;
+
+import java.util.Objects;
 
 public class ListNode {
 
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {
 
@@ -18,7 +20,7 @@ public class ListNode {
         this.next = next;
     }
 
-    static ListNode createList(int[] values) {
+    public static ListNode createList(int[] values) {
         if (values.length == 0) {
             return null;
         }
@@ -29,5 +31,21 @@ public class ListNode {
             current = current.next;
         }
         return head;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ListNode that = (ListNode) o;
+
+        return val == that.val
+                && Objects.equals(next, that.next);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(val, next);
     }
 }

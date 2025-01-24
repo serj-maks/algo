@@ -1,8 +1,9 @@
-package org.serjmaks.algo.legacy.middle_of_the_linked_list;
+package org.serjmaks.algo.middle_of_the_linked_list;
+
+import org.serjmaks.algo.ListNode;
 
 public class MiddleOfTheLinkedList {
-
-    public ListNode run(ListNode head) {
+    public static ListNode run(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 

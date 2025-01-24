@@ -3,7 +3,7 @@ package org.serjmaks.algo.subtree_of_another_tree;
 import org.serjmaks.algo.TreeNode;
 
 public class SubtreeOfAnotherTree {
-    public boolean run(TreeNode root, TreeNode subRoot) {
+    public static boolean run(TreeNode root, TreeNode subRoot) {
         if(root == null) {
             return false;
         }
@@ -17,7 +17,7 @@ public class SubtreeOfAnotherTree {
         return run(root.left, subRoot) || run(root.right, subRoot);
     }
 
-    public boolean isIdentical(TreeNode root, TreeNode subRoot) {
+    public static boolean isIdentical(TreeNode root, TreeNode subRoot) {
         if(root == null && subRoot == null) {
             return true;
         }

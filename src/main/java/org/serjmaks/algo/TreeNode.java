@@ -62,8 +62,8 @@ public class TreeNode {
         TreeNode that = (TreeNode) o;
 
         //cравниваем значения узлов и рекурсивно сравниваем левых и правых потомков
-        return val == that.val &&
-                Objects.equals(left, that.left)
+        return val == that.val
+                && Objects.equals(left, that.left)
                 && Objects.equals(right, that.right);
     }
 

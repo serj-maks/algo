@@ -7,11 +7,12 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 class ValidAnagramTest {
 
     @ParameterizedTest
     @MethodSource("arguments")
-    void paramRun(String s, String t, boolean expected) {
+    void run(String s, String t, boolean expected) {
         assertEquals(expected, ValidAnagram.run(s,t));
     }
 

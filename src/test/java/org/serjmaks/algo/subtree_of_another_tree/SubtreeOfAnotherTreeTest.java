@@ -14,9 +14,7 @@ class SubtreeOfAnotherTreeTest {
     @ParameterizedTest
     @MethodSource("arguments")
     void run(TreeNode root, TreeNode subRoot, boolean expected) {
-        SubtreeOfAnotherTree subtreeOfAnotherTree = new SubtreeOfAnotherTree();
-        boolean actial = subtreeOfAnotherTree.run(root, subRoot);
-        assertEquals(expected, actial);
+        assertEquals(expected, SubtreeOfAnotherTree.run(root, subRoot));
     }
 
     private static Stream<Arguments> arguments() {
