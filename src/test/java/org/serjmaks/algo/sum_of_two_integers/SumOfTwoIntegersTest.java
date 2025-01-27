@@ -1,4 +1,4 @@
-package org.serjmaks.algo.legacy;
+package org.serjmaks.algo.sum_of_two_integers;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -8,19 +8,21 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SearchInRotateSortedArrayTest {
+class SumOfTwoIntegersTest {
 
     @ParameterizedTest
     @MethodSource("arguments")
-    void run(int[] nums, int target, int expected) {
-        assertEquals(expected, SearchInRotateSortedArray.run(nums, target));
+    void run(int a, int b, int expected) {
+       assertEquals(SumOfTwoIntegers.run(a, b), expected);
     }
 
     private static Stream<Arguments> arguments() {
         return Stream.of(
-                Arguments.of(new int[]{4,5,6,7,0,1,2}, 0, 4),
-                Arguments.of(new int[]{4,5,6,7,0,1,2}, 3, -1),
-                Arguments.of(new int[]{1}, 0, -1)
+                Arguments.of(3, 5, 8),
+                Arguments.of(0, 3, 3),
+                Arguments.of(5, 0, 5),
+                Arguments.of(0, 0, 0)
         );
     }
+
 }
